@@ -1,0 +1,260 @@
+/* font family */
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('https://cdn.shopify.com/s/files/1/0576/3471/7769/files/FuturaBT-Medium.woff?v=1665414523') format('woff');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Futura Lt BT';
+    src: url('https://cdn.shopify.com/s/files/1/0576/3471/7769/files/FuturaLT-Light.woff?v=1665479819') format('woff');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Futura Hv BT';
+    src: url('https://cdn.shopify.com/s/files/1/0576/3471/7769/files/FuturaBT-Heavy.woff?v=1665485740') format('woff');
+    font-display: swap;
+  }
+  /* Roboto font */
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); */
+  /* Poppins font */
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.thankyou-page-os .container-os {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.thankyou-page-os .alert_bg {
+    background: #BE9C79;
+}
+.thankyou-page-os .alert_text p {
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+.thankyou-page-os .top_alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.thankyou-page-os .cross_Icon {
+    position: absolute;
+    right: 0;
+    display: none;
+}
+.thankyou-page-os .brand_section {
+    background-color: #fff;
+    box-shadow: 0px 8px 8px rgb(0 0 0 / 6%);
+    position: relative;
+    z-index: 5;
+}
+.thankyou-page-os .brand_image a {
+    display: flex;
+    width: max-content;
+    align-items: center;
+}
+.thankyou-page-os .brand_image {
+    padding: 12px 0;
+}
+
+/*  */
+.thankyou-page-os .thankyou-banner-os {
+    background: #E6D9C9;
+    position: relative;
+}
+.thankyou-page-os .thankyou-banner-data-os {
+    text-align: center;
+    padding: 5rem 0;
+}
+.thankyou-page-os .thankyou-banner-data-os h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 119.5%;
+    color: #1D1D1D;
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+.thankyou-page-os .thankyou-banner-data-os h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.4778px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #13131A;
+    margin: 0;
+}
+
+.thankyou-page-os .thankyou-banner-data-os p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.3185px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0;
+}
+.thankyou-page-os .thankyou-banner-image-os {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thankyou-page-os .continuing-shopping-data-os h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto 2rem;
+    width: 60%;
+}
+.thankyou-page-os .continuing-shopping-data-os a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #BE9C79;
+    max-width: 270px;
+    height: 52px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.thankyou-page-os .continuing-shopping-os {
+    background: #EBE5E0;
+    padding-bottom: 6rem;
+}
+.thankyou-page-os .continuing-shopping-data-os {
+    width: 70%;
+    margin: -1.5rem auto 0;
+    background: #FFF4E0;
+    opacity: 0.85;
+    border-radius: 14px;
+    padding: 4rem;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1024px) {
+    .thankyou-page-os .thankyou-banner-data-os {
+        padding: 3rem 0;
+    }
+    .thankyou-page-os .continuing-shopping-data-os {
+        padding: 3rem;
+    }
+    .thankyou-page-os .continuing-shopping-data-os h3 {
+        width: 80%;
+    }
+    .thankyou-page-os .continuing-shopping-os {
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .thankyou-page-os .thankyou-banner-data-os h4 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 1rem;
+    }
+    .thankyou-page-os .thankyou-banner-data-os h2 {
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #13131A;
+        margin: 0;
+    }
+    .thankyou-page-os .continuing-shopping-data-os h3 {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto 2rem;
+        width: 100%;
+    }
+    .thankyou-page-os .brand_image a img {
+        max-width: 60px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .thankyou-page-os .brand_image a img {
+        max-width: 45px;
+    }
+    .thankyou-page-os .top_alert {
+        padding: 12px;
+    }
+    .thankyou-page-os .alert_text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .thankyou-page-os .thankyou-banner-data-os h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .thankyou-page-os .thankyou-banner-data-os h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .thankyou-page-os .thankyou-banner-data-os p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .thankyou-page-os .continuing-shopping-data-os {
+        width: 100%;
+        margin: 0 auto 0;
+        opacity: 0.85;
+        border-radius: 14px;
+        padding: 2rem 1rem;
+    }
+    .thankyou-page-os .continuing-shopping-os {
+        padding: 2rem 0;
+    }
+    .thankyou-page-os .continuing-shopping-data-os h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 auto 1rem;
+    }
+    .thankyou-page-os .continuing-shopping-data-os a {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 200px;
+        height: 45px;
+        width: 100%;
+    }
+    .thankyou-page-os .brand_image {
+        padding: 8px 0;
+    }
+    .thankyou-page-os .thankyou-banner-image-os img {
+        max-width: 270px;
+    }
+    .thankyou-page-os .thankyou-banner-data-os {
+        padding: 2rem 0;
+    }
+}
